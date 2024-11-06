@@ -1,0 +1,45 @@
+{
+    "projects" : [
+   {
+        "title" : "Quotes App",
+        "desc" : "Random Quote generator which provides a set of quotes, a daily quote and a random quote",
+        "tags" : ["NextJS", "Tailwind", "typescript", "Docker"],
+        "githubLink" : "https://github.com/ShyamSunder149/quotes-app",
+        "deploymentLink" : "https://quotes-app-phi-ten.vercel.app/"
+    },
+    {
+        "title" : "Spending Calculator",
+        "desc" : "Made a script which scraps google pay export data and categorises my expenses. Can calculate average per month expenses, expenses year wise and export data to csv. Planning to implement some more",
+        "tags" : ["python", "scraping", "CLI"],
+        "githubLink" : "https://github.com/ShyamSunder149/spending-calculator",
+        "deploymentLink" : null
+    },
+    {
+        "title" : "Password Generator",
+        "desc" : "Random password generator with user's choice of character set.",
+        "tags" : ["NextJS", "Tailwind", "typescript", "Docker"],
+        "githubLink" : "https://github.com/ShyamSunder149/password-generator",
+        "deploymentLink" : "https://password-generator-pi-coral.vercel.app/"
+    },
+    {
+        "title" : "Transactional In-Memory KV Store",
+        "desc" : "Implmented a KV store in go which works based on transaction with rollback and commit options. Started off with this to learn on how to work with interface structs and LinkedList in go",
+        "tags" : ["Golang", "CLI"],
+        "githubLink" : "https://github.com/ShyamSunder149/transactional-kvstore",
+        "deploymentLink" : null
+    },
+    {
+        "title" : "Portfolio",
+        "desc" : "Portfolio Website done using turborepo, nextjs and tailwind css",
+        "tags" : ["NextJS", "Tailwind", "typescript", "Docker", "Turborepo"],
+        "githubLink" : "https://www.google.com",
+        "deploymentLink" : "nitros.vercel.app"
+    },
+    {
+        "title" : "Folder Organiser",
+        "desc" : "CLI which cleans up the folder by deleting duplicate files and moves the files into respective categories by creating folders",
+        "tags" : ["python", "CLI"],
+        "githubLink" : "https://github.com/ShyamSunder149/folder-organiser",
+        "deploymentLink" : null
+    }]
+}

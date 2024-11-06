@@ -1,0 +1,9 @@
+{
+    "Skills" : {
+        "Programming Languages" : ["Python", "Java", "Typescript"],
+        "Frontend Frameworks & Libraries" : ["NextJS", "React"],
+        "Databases" : ["PostgreSQL", "MongoDB"],
+        "DevOps & Containerization" : ["Docker"],
+        "Monorepo/Build Tools" : ["Turborepo"]
+    }
+}

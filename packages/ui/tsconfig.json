@@ -3,6 +3,6 @@
   "compilerOptions": {
     "outDir": "dist"
   },
-  "include": ["src"],
+  "include": ["src", "../../apps/web/components/about.tsx", "../../apps/web/components/FirstBanner.tsx", "../../apps/web/components/Connect.tsx", "../../apps/web/components/Projects.tsx", "../../apps/web/components/Skills.tsx"],
   "exclude": ["node_modules", "dist"]
 }
