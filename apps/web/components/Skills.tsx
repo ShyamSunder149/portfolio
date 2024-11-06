@@ -3,7 +3,12 @@ import { useState, useEffect } from 'react';
 import axios from "axios";
 
 const Skills = () => {
-    const [skills, setSkills] = useState([]);
+
+    interface SkillsData {
+        [category: string]: string[]; 
+      }
+
+    const [skills, setSkills] = useState<SkillsData | null>();
     useEffect(() => {
         const fetchSkills = async () => {
             const response = await axios.get("http://localhost:3000/api/v1/skills");

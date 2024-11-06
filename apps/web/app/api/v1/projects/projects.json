@@ -38,7 +38,7 @@
     {
         "title" : "Folder Organiser",
         "desc" : "CLI which cleans up the folder by deleting duplicate files and moves the files into respective categories by creating folders",
-        "tags" : ["python", "CLI"],
+        "tags" : ["Python", "CLI"],
         "githubLink" : "https://github.com/ShyamSunder149/folder-organiser",
         "deploymentLink" : null
     }]
