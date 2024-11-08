@@ -4,6 +4,7 @@ import axios from "axios";
 
 const Skills = () => {
 
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
     interface SkillsData {
         [category: string]: string[]; 
       }
@@ -11,8 +12,8 @@ const Skills = () => {
     const [skills, setSkills] = useState<SkillsData | null>();
     useEffect(() => {
         const fetchSkills = async () => {
-            const response = await axios.get("http://localhost:3000/api/v1/skills");
-            console.log(response.data.data.Skills);
+            console.log(baseUrl);
+            const response = await axios.get(`${baseUrl}/api/v1/skills`);
             setSkills(response.data.data.Skills);
         }
 

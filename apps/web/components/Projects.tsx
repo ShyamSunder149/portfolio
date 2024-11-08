@@ -6,6 +6,7 @@ import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 
 const Projects = () => {
 
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
     interface Project {
         title: any;
         name: string,
@@ -20,7 +21,7 @@ const Projects = () => {
 
     useEffect(() => {
         const fetchProjects = async () => {
-            const response = await axios.get("http://localhost:3000/api/v1/projects")
+            const response = await axios.get(`${baseUrl}/api/v1/projects`)
             setProjects(response.data.data.projects);
         }
 
